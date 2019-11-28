@@ -5,4 +5,3 @@ def sign_in_and_play
       fill_in :player_2_name, :with => "Ellis"
       click_on "Submit"
 end
-
