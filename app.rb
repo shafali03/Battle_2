@@ -16,7 +16,6 @@ class Battle < Sinatra::Base
 
   
   get '/play' do
-    # @message = session[:message]
     @player_1 = session[:player_1_name]
     @player_2 = session[:player_2_name]
     erb :play
