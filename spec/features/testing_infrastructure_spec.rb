@@ -9,7 +9,3 @@
       expect(page).to have_content "Shaf vs. Ellis"
   end
 end
-
-
-
-
